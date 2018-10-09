@@ -1,0 +1,359 @@
+body{
+	margin: 0;
+	padding: 1rem;
+	/*color: #212529;*/
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	/*text-align: left;*/
+	letter-spacing: 3px;
+	background-color: #fff;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",monospace;
+}
+
+@media (max-width: 768px){
+	body {
+		font-size: small;
+		letter-spacing: 1px;
+	}
+	#dividerV{
+		display: none;
+	}
+}
+@media (max-width: 600px){
+	body {
+		padding: 1rem;
+		font-size: xx-small;
+	}
+}
+@media (max-width: 400px){
+	body {
+		letter-spacing: 0.5px;
+	}
+}
+
+body > div.d-md-flex.flex-md-equal.w-100.my-md-3.pl-md-3{
+	/*padding: 0.5em 2em 0;*/
+}
+
+h4 {
+	font-size: 1.5em;
+}
+
+h5{
+	font-size: 1em;
+	font-weight: 800;
+	margin-top: 0.3rem;
+	margin-bottom: 0.1rem;
+}
+
+h2, h4{
+	font-weight: 800;
+}
+
+#horizontal_line{
+	height: 2px;
+	margin: 0 1em;
+	border-radius: 5px;
+	background-color: #ECEFF1;
+}
+
+/*--------- header background image ------------*/
+
+h1{
+	font-weight: bolder;
+	color: #fff;
+}
+
+#backgroundIMG{
+	height: 26em;
+	border-radius: 3px;
+	background-size: 100% 100%;
+	/*background-repeat: no-repeat;*/
+	background-image: url(/image/keyboard.jpeg);
+}
+
+#backgroundIMG h4{
+	color: #fff;
+}
+
+@media (max-width: 768px){
+	.m-md-3 {
+		margin-bottom: 1rem!important;
+	}
+}
+
+/*---------- section ----------*/
+
+.section{
+	padding: 3rem 8rem 0;
+}
+
+@media (max-width: 768px){
+	.section{
+		padding: 1rem 3rem 0!important;
+	}
+}
+@media (max-width: 1280px){
+	.section{
+		padding: 2rem 4rem 0;
+	}
+}
+@media (max-width: 600px){
+	.section{
+		padding: 0.7rem 0.2rem 0!important;
+	}
+}
+
+/*----------- LA BIOGRAPHIE -----------*/
+#biogra{
+	margin-left: 1rem;
+	font-weight: bold;
+}
+
+#biograRow p, #biograRow div{
+	color: #BDBDBD;
+}
+#biograRow a{
+	font-size: 0.9em;
+}
+
+#contact, #contact div{
+	padding: 0;
+}
+
+.phone, .address{
+	margin-bottom: 0;
+}
+#contact{
+	text-align: right;
+}
+
+#pdf{
+	margin-top: 1rem;
+}
+
+#link2{
+	display: none;
+}
+
+@media (max-width: 400px){
+	#link1{
+		display: none; 
+	} 
+	#link2{
+		display: block;
+	}
+}
+
+@media (width: 768px){
+	#biogra{
+		margin-left: 1rem!important;
+	}
+}
+
+@media (max-width: 768px){
+	#biogra{
+		margin-left: 0;
+	}
+	#biograRow{
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 600px){
+	#biogra{
+		margin-left: 0;
+	}
+	#biograRow{
+		margin-right: 0;
+		margin-left: 1px;
+	}
+	#biograRow, #biograRow div{
+		padding-left: 0;
+	}
+}
+
+/*---------------- Experiences Pro -------------*/
+
+#p1{
+	font-size: 0.9em;
+	margin-bottom: 0.2rem;
+}
+#p2{
+	color: #BDBDBD;
+	font-size: 0.9em;
+	margin-bottom: 0.5rem;
+	letter-spacing: 1px;
+}
+
+.col-1{
+	padding-top: 0.5em;
+	/*padding-right: 0;*/
+}
+#col-1{
+	padding-top: 0;
+	margin: -8px 0;
+}
+.col-10{
+	padding: 0;
+}
+
+ul{
+	padding-left: 0em;
+}
+
+li{
+	list-style-type: none;
+}
+
+#point{
+	width: 10px;
+	height: 10px;
+	margin: 3px;
+	border-radius: 50%;
+	background-color: #9E9E9E;
+}
+
+#libox{
+	width: 2px;
+	height: 100%;
+	border-radius: 5px;
+	margin-left: 0.45em;
+	background-color: #9E9E9E;
+}
+
+#experiencesPro{
+	padding-right: 0!important;
+	padding-left: 0!important;
+}
+
+@media (max-width: 400px){
+	.col-10{
+		padding-left: 2em;
+	}
+	#col-1{
+		padding-top: 0;
+		margin: -10px 0 -7px;
+	}
+	#libox{
+		margin-left: 0.8em;
+	}
+}
+
+@media (max-width: 600px){
+	.col-10{
+		padding-left: 1em;
+	}
+	#libox{
+		margin-left: 0.8em;
+	}
+}
+
+@media (max-width: 768px){
+	.pl-3, .px-3 {
+		padding-left: 0!important;
+	}
+}
+
+@media (max-width: 1280px){
+	.col-10{
+		padding-left: 1em;
+	}
+}
+
+@media (min-width: 1280px){
+	#p2{
+		letter-spacing: 0.8px;
+	}
+}
+
+/*--------- compotence ---------*/
+
+#compH1{
+	color: #9E9E9E;
+	font-weight: 800;
+	text-align: center;
+	margin: 0.4em 0 -0.2em;
+}
+
+#frontEnd{
+	padding-left: 0!important;
+}
+#servCloud{
+	padding-left: 0!important;
+}
+
+#dividerV{
+	margin-top: 3em;
+	margin-bottom: 2em;
+	max-width: 2px;
+	background-color: #ECEFF1;
+	border-radius: 5px;
+	padding: 0!important;
+}
+
+.progress {
+	background-color: #F5F5F5;
+	margin-bottom: 1em;
+}
+.progress .determinate {
+	background-color: #0091ea;
+}
+
+#compP1, #compP2, #compP3{
+	font-weight: 600;
+	/*margin-top: 0.4em;*/
+	text-align: right;
+}
+
+#competanceLInfo .col-6{
+	padding-right: 0;
+}
+
+.card-body{
+	font-size: 0.9em;
+}
+
+@media (max-width: 768px){
+	.card-body{
+		font-size: 0.8em!important;
+	}
+	#compP1{
+		padding-right: 3.5em;
+	}
+}
+
+@media (width: 768px){
+	#compP1{
+		padding-right: 1.5em;
+	}
+}
+
+@media (max-width: 1280px){
+	#frontEnd{
+		padding-right: 0!important;
+	}
+	#backEnd{
+		padding-left: 0!important;
+	}
+	#dividerV{
+		margin-right: 2em!important;
+	}
+	.card-body{
+		padding: 1em;
+		font-size: 0.75em;
+	}
+	#competanceLInfo{
+		margin: 0!important;
+		padding-right: 0!important;
+		padding-left: 0!important;
+	}
+}
+
+/*------------------ centres d'interet -------------*/
+
+#centeInteret{
+	padding-right: 0!important;
+	padding-left: 0!important;
+}
